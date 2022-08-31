@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Projeto Final</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+img,h1{display: inline-block;}
+w3-wide {display: flex;} 
+</style>
+</head>
+<body>
+
+
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">INÍCIO</a>
+    <a href="#GIT" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">GIT</a>
+    <a href="#GITHUB" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">GITHUB</a>
+    <a href="#PYT" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">PYTEST</a>
+    <a href="#TDD" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">TDD</a>
+    <a href="#FL" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FLASK</a>
+  </div>
+
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#GIT" class="w3-bar-item w3-button w3-padding-large">GIT</a>
+    <a href="#GITHUB" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">GITHUB</a>
+    <a href="#PYT" class="w3-bar-item w3-button w3-padding-large">PYTEST</a>
+    <a href="#TDD" class="w3-bar-item w3-button w3-padding-large">TDD</a>
+    <a href="#FL" class="w3-bar-item w3-button w3-padding-large">FLASK</a>
+  </div>
+</div>
+
+
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Projeto Final</h1>
+  <p class="w3-xlarge">Emilly Batista e Isabelly Furtado - 4º INTIN</p>
+</header>
+
+<div class="w3-row-padding w3-padding-64 w3-container" id="GIT">
+  <div class="w3-content">
+      <div class="w3-twothird">
+      <img src="Imagem/GiT.png" style="width:10%">
+      <h1 class="w3-wide">GIT</h1> 
+      <h5 class="w3-justify">O Git é um sistema distribuído/ferramenta de versionamento de arquivos ou controle de versões. A maioria das operações são locais, não é necessária a comunicação com algum servidor a cada operação, com isso há um ganho em velocidade nas operações. Isso também implica, que mesmo estando offline, é possível trabalhar nos projetos, e só depois replicar ao servidor.</h5>
+      <h5 class="w3-justify"> O git utiliza a técnica de snapshot para gerenciamento das mudanças, que registra momentos contendo algo parecido com a foto dos arquivos.Alguns estados básicos dos arquivos do git: Consolidado (commited) Estão armazenados em sua base local;Modificado (modified) Arquivo sofreu mudança mas não foi commitado;Preparado (staged) Arquivo marcado para fazer parte do próximo snapshot.</h5>
+    </div>
+  </div>
+</div>
+  <div class="w3-row-padding w3-padding-64 w3-container" id="GITHUB">
+    <div class="w3-content">
+      <div class="w3-twothird">
+      <img src="Imagem/GitHub.png" style="width:10%">
+      <h1 class="w3-wide">GITHUB</h1>
+      <h5 class="w3-justify">Git remoto (github): Repositório remoto é uma versão do seu repositório git hospedado na internet ou em rede. É possível realizar diversas operações, como push, pull, bem como trabalhar com branches de forma remota.Para visualizar os servidores remotos de um repositório, usamos git remote; Branch padrão do github: main; Git push origin main: envia as alterações de um repositório local para um repositório remoto; Git pull origin main: atualiza o diretório do computador com as informações presentes no remoto. O git pull “puxa” os commits do repositório remoto.</h5>
+    </div>
+  </div>
+</div>
+<div class="w3-row-padding w3-padding-64 w3-container" id="TDD">
+  <div class="w3-content">
+    <div class="w3-twothird">
+    <img src="Imagem/TdD.png" style="width:10%">
+      <h1 class="w3-wide">TDD</h1>
+      <h5 class="w3-justify">TDD significa Desenvolvimento Orientado por Testes (Test Driven Development), e trata-se de uma prática de desenvolvimento de software onde a codificação das funcionalidades começa a partir da escrita de testes unitários. Essa técnica foi criada por Kent Beck e é um dos pilares do XP (Extreme Programming).</h5>
+    </div>
+  </div>
+</div>
+<div class="w3-row-padding w3-padding-64 w3-container" id="PYT">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <img src="Imagem/PytesT.png" style="width:10%">
+      <h1 class="w3-wide">PYTEST</h1>
+      <h5 class="w3-justify">O Pytest é uma estrutura de teste baseada em Python, utilizada para escrever e executar códigos de teste. Sendo usado principalmente para testes de API, embora possa ser  usado para escrever testes simples a complexos, ou seja, podemos escrever códigos para testar API, banco de dados, UI, etc.</h5>
+    </div>
+  </div>
+</div>
+<div class="w3-row-padding w3-padding-64 w3-container" id="FL">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <img src="Imagem/FlasK.png" style="width:10%">
+      <h1 class="w3-wide">FLASK</h1>
+      <h5 class="w3-justify">Lançado em 2010, o Flask é um micro-framework que tem como objetivo desenvolver com facilidade aplicativos web. Sendo assim, o flask oferece simplicidade e rapidez para projetos pequenos e até mesmo apps maiores.Ferramentas do flask:WSGI utilizada no desenvolvimento com Python;
+      Werkzeug compreendida com um kit de implementação de funções;Jinja2 refere-se a um sistema de templates que através de uma fonte de dados específica para deixar uma página renderizada.</h5>
+    </div>
+  </div>
+</div>
+
+  <script>
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    } else { 
+    x.className = x.className.replace(" w3-show", "");
+    }
+  </script>
+
+</body>
+</html>
+</head>
